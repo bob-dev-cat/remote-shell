@@ -7,7 +7,7 @@ session_start();
 
 // Hashed password setting (MUST BE UPDATED BEFORE USE)
 // Use password_hash() to generate your hash, then paste it here.
-$hashed_password = "$2y$10$0H.6d4cNxt4.uEtKwg7HZubfQHB14xqdm0Q4Tup0t7ZpkXkS1yRxa"; // <--- ここを書き換えてください
+$hashed_password = "$2y$10$0H.6d4cNxt4.uEtKwg7HZubfQHB14xqdm0Q4Tup0t7ZpkXkS1yRxa"; // <--- Change this.
 
 // Password verification and authentication
 if (isset($_POST['password'])) {
